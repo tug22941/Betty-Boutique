@@ -8,9 +8,57 @@ This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Sta
 ### src/main/com.teksystems: Contains the main application packages
 
 config 
-  - Holds the security configuration for the authentication of a user before accessing the user, product, and cart directories
+  - Holds the security configuration for authenticating of a user before accessing the user, product, and cart directories
   - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/config
 
+controller
+  - Holds the controller classes responsible for accepting the user input, performing a task, and returning a response to the specified JSP page
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/controller
+
+
+database: contains the dao and entity packages - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/database
+
+  dao
+    - holds the data abstraction object responsible for making sql queries to the database in relation to a single entity/object
+    - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/database/dao
+    
+  entity 
+    - holds the entity models with mapping to their corresponding database table and column
+    - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/database/entity
+    
+formbeans
+  - holds the attributes of the input used in the application, along requirements to be considered valid
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/formbeans
+
+authentication
+  - holds the authentication implementation and service for a user (new or pre-existing)
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/security
+
+validation
+  - holds the validation implementation and interface for determining whether an email is unique to our database
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/validation
+
+### src/main/webapp: Contains the directories containing the application JSP pages, Images, CSS styliings, and Images
+pub
+  - holds the css, images, and js directories responsible for the application page styling, images, and javascript functionalities
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/webapp/pub
+
+WEB-INF
+  - holds the app JSP pages for the application
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/webapp/WEB-INF/jsp
+
+### src/test/java/com.teksystems.database.dao: Contains the application unit testing
+  - holds the unit test for the UserDAO
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/test/java/com/teksystems/database/dao
+
+### pom.xml
+  - contains the dependencies, and plugins employed in this application
+  - https://github.com/tug22941/Betty-Boutique/blob/main/pom.xml
+
+
+
+## Functionality
+  - This application was developed inside the IntelliJ IDE. I used mySQL server for my database. Hibernate is used as the JPA implementation, with springboot being employed for abstraction. In the frontend we used simple HTML, CSS, and JS, with bootstrap for formatting and webpage responsiveness.
 
 
 ## Web Pages
