@@ -3,6 +3,9 @@ The Betty Boutique repository houses a boutique store web application. This appl
 
 This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Stack Development training course (2023-RTT-45-JAVA).
 
+## Entity Relationship Diagram
+![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/ERD.PNG?raw=true)
+
 ## Web Pages
 
 ### Index (Landing)
@@ -44,5 +47,3 @@ This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Sta
 ### Edit Product
 ![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/edit-user.PNG?raw=true)
 
-## Entity Relationship Diagram
-![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/ERD.PNG?raw=true)
