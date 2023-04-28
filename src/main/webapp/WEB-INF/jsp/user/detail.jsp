@@ -45,10 +45,6 @@
                 <td>Email Address</td>
                 <td>${user.email}</td>
             </tr>
-            <tr>
-                <td>Password</td>
-                <td>${user.password}</td>
-            </tr>
             </tbody>
         </table>
     </div>
