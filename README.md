@@ -3,6 +3,13 @@ The Betty Boutique repository houses a boutique store web application. This appl
 
 This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Stack Development training course (2023-RTT-45-JAVA).
 
+## Directory Description
+
+### src/main/com.teksystems: Contains the main application packages
+Config
+  - Holds the security configuration for determining....
+
+
 
 ## Web Pages
 
