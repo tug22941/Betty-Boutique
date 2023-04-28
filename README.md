@@ -6,8 +6,10 @@ This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Sta
 ## Directory Description
 
 ### src/main/com.teksystems: Contains the main application packages
-Config
-  - Holds the security configuration for determining....
+
+config 
+  - Holds the security configuration for the authentication of a user before accessing the user, product, and cart directories
+  - https://github.com/tug22941/Betty-Boutique/tree/main/src/main/java/com/teksystems/config
 
 
 
