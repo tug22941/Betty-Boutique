@@ -1,0 +1,12 @@
+table{
+    box-shadow: -10px 5px 5px #E76B8E;
+    text-align: center;
+}
+.table-img{
+    max-width: 90%;
+}
+
+.title-hr{
+    max-width: 50%;
+    background-color: #B188CC;
+}

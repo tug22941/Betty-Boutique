@@ -1,0 +1,15 @@
+
+label, button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-container{
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+

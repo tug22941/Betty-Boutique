@@ -1,0 +1,13 @@
+
+.box-wrap{
+    background: #ef85be;
+}
+.box-wrap2{
+    background: #F1BB7F;
+    text-align: center;
+}
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

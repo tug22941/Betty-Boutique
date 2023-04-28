@@ -1,0 +1,20 @@
+.bg{
+    background-color: #e7a2b7;
+}
+
+.w-33{
+    width:33%;
+    min-width: 200px;
+}
+
+.box-wrap{
+    background:#D9D4D0;
+    border:2px solid #e76b8e;
+}
+
+.info-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+

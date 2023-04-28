@@ -1,0 +1,117 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 1, 9, 0), rgba(0, 0, 0, 0.7)),
+    url(../images/hero.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+div > .col-md-3 {
+  padding: 5px;
+}
+
+.description {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.description > .button {
+  width: 80%;
+}
+
+.label {
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.explore {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.explore:hover {
+  -webkit-filter: brightness(150%);
+  transition: 2s linear;
+}
+
+.tshirts {
+  background-image: url(../Images/tshirts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.trousers {
+  background-image: url(../Images/trousers.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shirts {
+  background-image: url(../Images/shirts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.jackets {
+  background-image: url(../Images/jackets.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.coats {
+  background-image: url(../Images/coats.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hoodies {
+  background-image: url(../Images/hoodies.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.leggings {
+  background-image:url(../Images/leggings.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.shorts {
+  background-image:url(../Images/shorts.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.suits {
+  background-image:url(../Images/suits.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sz-20{
+  font-size: 20px !important;
+}

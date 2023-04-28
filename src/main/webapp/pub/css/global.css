@@ -1,0 +1,74 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1ebe7;
+  min-width: 230px;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5 {
+  font-family: "Playfair Display", serif;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+hr {
+  width: 90%;
+  background-color: #f45491;
+}
+a{
+  color:#000;
+}
+a:hover{
+  text-decoration: none;
+}
+
+
+.navbar {
+  border-top: 1px rgb(255 96 0 / 45%) solid;
+  border-bottom: 1px rgb(255 96 0 / 45%) solid;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.w-80{
+  width:80%;
+}
+
+.cart-link{
+  width:55%;
+}
+.cart-a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-img{
+  width:30px;
+  max-width:10%;
+  min-width:20px;
+}
+
+.form-control {
+  border-color: #000;
+}
+
+.token {
+  width: 30px;
+  margin: 0 5px;
+}
+.token img {
+  width: 100%;
+}
+
+/*account page css*/
+.w-10{ width:10%}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
