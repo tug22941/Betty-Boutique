@@ -43,3 +43,7 @@ This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Sta
 
 ### Edit Product
 ![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/edit-user.PNG?raw=true)
+
+## Entity Relationship Diagram
+
+![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/ERD.PNG?raw=true)
