@@ -5,5 +5,5 @@ This app is intended as a capstone project for PNC TEKsystems 2023 Java Full-Sta
 
 ## Web Pages
 
-## Index (Landing)
+### Index (Landing)
 ![alt text](https://github.com/tug22941/Betty-Boutique/blob/main/gitImg/index.PNG?raw=true)
