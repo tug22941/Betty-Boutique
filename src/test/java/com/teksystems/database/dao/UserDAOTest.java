@@ -3,6 +3,9 @@ package com.teksystems.database.dao;
 import org.junit.jupiter.api.*;
 
 import com.teksystems.database.entity.User;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.aggregator.ArgumentsAccessor;
+import org.junit.jupiter.params.provider.CsvSource;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -23,11 +26,31 @@ public class UserDAOTest {
     }
 
     @Test
-    public void findByIdtest(){
+    public void findByIdTest(){
         User u = userDAO.findById(7);
         Assertions.assertEquals(u.getFirstName(), "Jonah");
         Assertions.assertEquals(u.getLastName(), "Saywonson");
         Assertions.assertEquals(u.getEmail(), "jonahsaywonson@temple.edu");
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+        "7,Jonah,Saywonson,jonahsaywonson@temple.edu"
+    })
+    public void findByIdParameterizedTest(ArgumentsAccessor args){
+        //given
+        User given = new User();
+        given.setFirstName(args.getString(1));
+        given.setLastName(args.getString(2));
+        given.setEmail(args.getString(3));
+
+        //when
+        User actual = userDAO.findById(7);
+
+        //then
+        Assertions.assertEquals(given.getFirstName(), actual.getFirstName());
+        Assertions.assertEquals(given.getLastName(), actual.getLastName());
+        Assertions.assertEquals(given.getEmail(), actual.getEmail());
     }
 
     @Test
