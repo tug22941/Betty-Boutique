@@ -30,7 +30,7 @@
                 <tr>
                     <td></td>
                     <td><image class="w-10" src="${order.image_url}"></image></td>
-                    <td>${order.quantity}</td>
+                    <td>x${order.quantity}</td>
                     <td>${order.name}</td>
                     <td></td>
                     <td>
